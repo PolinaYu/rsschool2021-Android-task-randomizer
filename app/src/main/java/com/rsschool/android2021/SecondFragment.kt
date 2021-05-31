@@ -32,12 +32,10 @@ class SecondFragment : Fragment() {
         result?.text = generate(min, max).toString()
 
         backButton?.setOnClickListener {
-            // TODO: implement back
         }
     }
 
     private fun generate(min: Int, max: Int): Int {
-        // TODO: generate random number
         return 0
     }
 
